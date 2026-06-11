@@ -1,0 +1,5 @@
+<div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped" style="width:<?php echo '20'?>%">
+    <!-- FIX progress-bar style="" mit JavaScript -->
+  </div>
+</div>

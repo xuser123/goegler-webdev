@@ -1,0 +1,10 @@
+body {
+  background-image: url('../png/bg-picture.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden; /* Scrollleiste verbergen */
+}
+.carousel {
+  opacity:96%;
+}
