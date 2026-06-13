@@ -1,4 +1,5 @@
-<div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselSlidesOnly" 
+	class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="/assets/img/c1-picture.png" 
@@ -43,7 +44,8 @@
 						</label>
 						<input class="list-group-item-check pe-none" 
 							type="radio" name="listGroupCheckableRadios" 
-								id="listGroupCheckableRadios2" value="">
+								id="listGroupCheckableRadios2" 
+									value="">
 						<label class="list-group-item rounded-3 py-3" 
 							for="listGroupCheckableRadios2">Ship only
 								<span class="d-block small opacity-50">
@@ -51,7 +53,8 @@
 						</label>
 						<input class="list-group-item-check pe-none" 
 							type="radio" name="listGroupCheckableRadios" 
-								id="listGroupCheckableRadios3" value="" disabled>
+								id="listGroupCheckableRadios3" 
+									value="" disabled>
 						<label class="list-group-item rounded-3 py-3" 
 							for="listGroupCheckableRadios3">Members
 								<span class="d-block small opacity-50">
@@ -88,11 +91,13 @@
 						<fieldset>
 							<p>
 								<label for="email">Email-Address</label>
-								<input class="form-control" type="email" id="email" placeholder="your@email.com" required>
+								<input class="form-control" 
+									type="email" id="email" placeholder="your@email.com" required>
 							</p>
 							<p>
 								<label for="tel">Telephone</label>
-								<input class="form-control" type="tel" id="tel" placeholder="0049 15123456789" required>
+								<input class="form-control" 
+									type="tel" id="tel" placeholder="0049 15123456789" required>
 							</p>
 							<p>
 								<label for="date">Prefered Date of Contact</label>
@@ -101,7 +106,8 @@
 							</p>
 							<div class="col-12">
 								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+									<input class="form-check-input" type="checkbox" 
+										value="" id="invalidCheck" required>
 									<label class="form-check-label" for="invalidCheck">
 										Agree to terms and conditions
 									</label>

@@ -8,4 +8,15 @@ return [
 	'jumbotron' => 'jumbotron.php'
 	'heroes' => 'heroes.php'
 	'masonry' => 'masonry.php'
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
+	'' => ''
 ];
+?>

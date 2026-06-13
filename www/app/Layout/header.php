@@ -17,7 +17,8 @@
 			href="/app/Pages/home">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/app/Pages/about.php">About Us</a>
+    <a class="nav-link" 
+			href="/app/Pages/about">About Us</a>
   </li>
 	<div class="dropdown">
 		<button class="btn btn-secondary dropdown-toggle" 
@@ -35,12 +36,13 @@
 				href="/app/Pages/heroes">Partners</a></li>
 		</ul>
 	</div>
-	<li><a class="dropdown-item" 
+	<li class="nav-item"><a class="nav-link" 
 		data-bs-target="#modalToggle1" 
 			data-bs-toggle="modal">Contact Us</a></li>
-	<li><a class="dropdown-item" 
+	<li class="nav-item"><a class="nav-link" 
 		href="/app/Pages/masonry">Gallery</a></li>
 	</div>
 </ul>
 </nav>
+<!-- dashboard.php uses main class="col-md-9 ms-sm-auto col-lg-10 px-md-4"-->
 <main>
