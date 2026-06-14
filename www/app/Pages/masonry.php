@@ -1,3 +1,4 @@
+<main>
 <div class="container justify-content-end py-5">
   <hr class="my-5">
   <div class="row" data-masonry='{"percentPosition": true }'>
@@ -81,4 +82,5 @@
     </div>
   </div>
 </div>
-<script src="/js/masonry.pkgd.min.js"></script>
+<main>
+<script src="/assets/js/masonry.pkgd.min.js"></script>

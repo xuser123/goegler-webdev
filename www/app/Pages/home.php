@@ -1,16 +1,15 @@
+<main>
 <div id="carouselSlidesOnly" 
 	class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="/assets/img/c1-picture.png" 
-        class="d-block w-100 rounded" 
-          alt="Landview">
+        class="d-block w-100 rounded">
 			<!--img src="..." class="img-fluid" alt="..."-->
     </div>
     <div class="carousel-item">
       <img src="/assets/img/c2-picture.png" 
-        class="d-block w-100 rounded" 
-          alt="Photovoltaic Solar Panels">
+        class="d-block w-100 rounded">
     </div>
     <!--div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
@@ -134,3 +133,4 @@
 		</div>
 	</div>
 </div>
+</main>
