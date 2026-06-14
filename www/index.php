@@ -44,5 +44,14 @@ require __DIR__ . '/app/Layout/footer.php';
 <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script-->
 <!--script src="/assets/js/bootstrap.bundle.js"></script-->
 
+<?php
+/* DEBUGGING includes */
+$included_files = get_included_files();
+foreach ($included_files as $filename) {
+    echo "$filename\n";
+}
+$include_path = get_include_path();
+echo $include_path;
+?>
 </body>
 </html>
