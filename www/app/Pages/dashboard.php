@@ -1,3 +1,4 @@
+<main>
 <div class="container-fluid"> 
   <div class="row"> 
     <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary"> 
@@ -132,3 +133,7 @@
   </table>
 </div>
 </main>
+
+<!-- dashboard.js -->
+<script src="/assets/js/dashboard.js" 
+  class="astro-vvvwv3sm"></script>

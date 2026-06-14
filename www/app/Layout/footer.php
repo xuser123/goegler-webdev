@@ -1,4 +1,3 @@
-</main>
 <footer>
 <div class="justify-content-end">
   <ul class="nav justify-content-center border-bottom position-absolute bottom-0 p-4 gap-4 " style="width:100%;">
@@ -19,4 +18,3 @@
 </div>
 </footer>
 </body>
-</html>
