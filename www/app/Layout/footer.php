@@ -1,6 +1,6 @@
 <footer>
 <div class="justify-content-end">
-  <ul class="nav justify-content-center border-bottom position-absolute bottom-0 p-4 gap-4 " style="width:100%;">
+  <ul class="nav justify-content-center border-bottom position-absolute bottom-0 p-4 gap-4" style="width:100%">
     <li class="nav-item"><a href="/app/Pages/home" 
       class="nav-link px-2 text-body-secondary">Home</a></li>
     <li class="nav-item"><a href="/app/Pages/about" 
@@ -13,7 +13,8 @@
 			  data-bs-toggle="modal">Contact Us</a></li>
     <li class="nav-item"><a href="/app/Pages/jumbotron" 
       class="nav-link px-2 text-body-secondary">Gallery</a></li>
-    <p class="text-center text-body-secondary">© 2026 Goegler Developer, Inc</p> <div></div>
+    <p class="text-center" style="width:100%">© 2026 Goegler Developer, Inc</p>
   </ul>
+</div>
 </div>
 </footer>
