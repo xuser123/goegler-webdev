@@ -45,6 +45,10 @@ require __DIR__ . '/app/Layout/footer.php';
 <!--script src="/assets/js/bootstrap.bundle.js"></script-->
 
 <?php
+
+var_dump ($_GET);
+
+
 /* DEBUGGING includes */
 $included_files = get_included_files();
 foreach ($included_files as $filename) {
@@ -52,6 +56,8 @@ foreach ($included_files as $filename) {
 }
 $include_path = get_include_path();
 echo $include_path;
+
+phpinfo();
 ?>
 </body>
 </html>

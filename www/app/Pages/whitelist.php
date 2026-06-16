@@ -10,3 +10,6 @@ return [
 ];
 
 ?>
+
+<!-- TESTE MIT require href 
+ http://127.0.0.1:5500/assets/img/c1-picture.png -->
