@@ -15,7 +15,7 @@
 	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
 		crossorigin="anonymous"></script>
 <!--script type="text/javascript">
-?php require __DIR__ . '/assets//bootstrap/dist/js/popper.min.js'; ?-->
+?php require __DIR__ . '/assets//bootstrap/dist/js/popper.min.js'; ?>
 </script-->
 <!-- bootstrap.bundle.js -->
 <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script-->
@@ -28,7 +28,7 @@
 </header><body data-bs-theme="dark">
 
 <?php
-$pages = require_once __DIR__ . '/app/whitelist.php';
+$pages = require_once __DIR__ . '/app/Pages/whitelist.php';
 $page =$_GET['page'] ?? 'home';
 if (!isset($pages[$page])) {
 	http_response_code(404);
