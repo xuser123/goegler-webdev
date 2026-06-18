@@ -7,8 +7,7 @@
 
 <!-- bootstrap.min.css -->
 <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"-->
-<style rel="stylesheet" type="text/css">
-<?php require __DIR__ . '/assets/bootstrap/dist/css/bootstrap.css'; ?>
+<link href="/assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
 </style>
 <!-- Popper.min.js -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 

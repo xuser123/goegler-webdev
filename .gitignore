@@ -1,5 +1,6 @@
-.htaccess
-php.ini
+# python -m http.server
+.venv/
+
 # General
 /node_modules
 /.vscode
